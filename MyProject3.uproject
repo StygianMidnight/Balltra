@@ -1,0 +1,88 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.4",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MyProject3",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "HDRIBackdrop",
+			"Enabled": true
+		},
+		{
+			"Name": "RigLogic",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLink",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLinkControlRig",
+			"Enabled": true
+		},
+		{
+			"Name": "AppleARKitFaceSupport",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"IOS",
+				"Win64",
+				"Mac",
+				"Linux",
+				"Android"
+			]
+		},
+		{
+			"Name": "HairStrands",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaPipe4UBVH",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaPipe4U",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaPipe4UGStreamer",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaPipe4UNvAR",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaPipe4ULiveLink",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaPipe4USpeech",
+			"Enabled": true
+		},
+		{
+			"Name": "SQLiteCore",
+			"Enabled": true
+		},
+		{
+			"Name": "SQLiteSupport",
+			"Enabled": true
+		}
+	]
+}
